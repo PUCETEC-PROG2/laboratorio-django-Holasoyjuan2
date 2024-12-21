@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <title>Pokedex</title>
@@ -10,12 +11,17 @@
                 <h1>Mi Pokedex</h1>
             </div>
             <p>Has elegido el pokemon: <strong>{{ pokemon | capfirst }}</strong></p>
-            <h3>informacion del pokemons</h3>
+            <h3>detalles del pokemon</h3>
             <ul>
                 <li>nombre: {{pokemon.name}}</li>
                 <li>tipo: {{pokemon.type}}</li>
                 <li>peso: {{pokemon.weight}}</li>
                 <li>altura: {{pokemon.height}}</li>
+            </ul>    
+            <ul>
+                <li>nombre: {{first_name}}</li>
+                <li>tipo: {{trainer.last_name}}</li>
+                <li>peso: {{trainer.level}}</li>
             </ul>    
         </div>
     </body>
