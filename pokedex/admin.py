@@ -7,5 +7,5 @@ class Pokemonadmin(admin.ModelAdmin):
     pass
 # Register your models here.
 @admin.register(Trainer)
-class TrainerAdmin(admin.ModelAdmin):
+class TrainerAdmin(admin.TrainerAdmin):
     pass
